@@ -63,7 +63,7 @@ tickCore = function(){
     if(x_process){
 
       // weight reduced by 2^(power+global - 2)
-      x_core.weight -= Math.pow(2,(x_core.power + g_corepower - 2))
+      x_core.weight = -1
 
       // If Process is complete
       if(x_core.weight <= 0){
