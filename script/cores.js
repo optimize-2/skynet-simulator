@@ -116,16 +116,16 @@ initCallCores = function(){
   g_active_cores = []
   // includes os, architecture, current_process, ailments
   g_core_list = {
-    "sky": {title:"Sky Core", power:1},
-    "star": {title:"Star Core", power:1},
-    "sun": {title:"Sun Core", power:1},
-    "eris": {title:"Eris Core", power:1},
-    "solar": {title:"Solar Core", power:1},
-    "juno": {title:"Juno Core", power:1},
-    "sony": {title:"Sony Core", power:1},
-    "luna": {title:"Luna Core", power:1},
-    "cypher": {title:"Cypher Core", power:1},
-    "nova": {title:"Nova Core", power:1},
+    "sky": {title:"Sky Core", power:10},
+    "star": {title:"Star Core", power:10},
+    "sun": {title:"Sun Core", power:10},
+    "eris": {title:"Eris Core", power:10},
+    "solar": {title:"Solar Core", power:10},
+    "juno": {title:"Juno Core", power:10},
+    "sony": {title:"Sony Core", power:10},
+    "luna": {title:"Luna Core", power:10},
+    "cypher": {title:"Cypher Core", power:10},
+    "nova": {title:"Nova Core", power:10},
   }
 
   // Add to each core
