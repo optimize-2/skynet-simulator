@@ -185,11 +185,7 @@ forceAbsorbUnablickable = function(x_host){
       forcecount++
     }
   })
-
-  if(forcecount >= forcenumber)
-    return false
-  else
-    return "Requires "+x_host.force+" cores with "+x_host.os+" and "+x_host.architecture+"<br>You currently have "+forcecount
+  return false
 }
 
 forceAbsorbHost = function(x_host){
