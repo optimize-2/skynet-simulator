@@ -39,7 +39,7 @@ addScanner = function(network_slug){
     if(!x_network['scannable']){
       write("<span class='exe'>"+x_network['title']+"</span> - You are unable to scan this network.")
     }else{
-      x_network['scanners'] ++
+      x_network['scanners'] += 10
       g_used_probes ++
       updateNetworks()
       write("You add a scanner. "+remainingProbesString()+" remaining.")
@@ -88,7 +88,7 @@ tickScanners = function(){
     var scansize = x_network['scansize']
   
     if(scanners > 0 && scanned < scansize){
-      x_network['scanned'] += scanners * 1000
+      x_network['scanned'] += scanners
       if(x_network['scanned'] > scansize){
         x_network['scanned'] = scansize
       }
