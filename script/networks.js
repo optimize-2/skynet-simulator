@@ -88,7 +88,7 @@ tickScanners = function(){
     var scansize = x_network['scansize']
   
     if(scanners > 0 && scanned < scansize){
-      x_network['scanned'] += scanners
+      x_network['scanned'] += scanners * 1000
       if(x_network['scanned'] > scansize){
         x_network['scanned'] = scansize
       }
